@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vtestbench
+Z0 !s110 1776077932
+!i10b 1
+!s100 GKPAUfiZ33iTT3NO>=FD42
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IHLYznFA56Q;SD677:mf@R1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Acer-Swift/Documents/FPGA_DEMO/TO9/Demo1_Xor
+w1776077736
+8C:/Users/Acer-Swift/Documents/FPGA_DEMO/TO9/Demo1_Xor/testbench.v
+FC:/Users/Acer-Swift/Documents/FPGA_DEMO/TO9/Demo1_Xor/testbench.v
+!i122 2
+L0 3 26
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1776077931.000000
+!s107 C:/Users/Acer-Swift/Documents/FPGA_DEMO/TO9/Demo1_Xor/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Acer-Swift/Documents/FPGA_DEMO/TO9/Demo1_Xor/testbench.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vxor_gate
+R0
+!i10b 1
+!s100 LR_Sh8F4k]c89N1R0Lig>2
+R1
+IaW;;>_aPXk^6@gGm`WBJ]2
+R2
+R3
+w1776077442
+8C:/Users/Acer-Swift/Documents/FPGA_DEMO/TO9/Demo1_Xor/xor_gate.v
+FC:/Users/Acer-Swift/Documents/FPGA_DEMO/TO9/Demo1_Xor/xor_gate.v
+!i122 3
+L0 13 16
+R4
+r1
+!s85 0
+31
+!s108 1776077932.000000
+!s107 C:/Users/Acer-Swift/Documents/FPGA_DEMO/TO9/Demo1_Xor/xor_gate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Acer-Swift/Documents/FPGA_DEMO/TO9/Demo1_Xor/xor_gate.v|
+!i113 1
+R5
+R6

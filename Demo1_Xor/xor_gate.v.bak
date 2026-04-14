@@ -1,0 +1,28 @@
+/*
+xor gate
+
+description:
+    this is an xor gate using gate lavel modeling
+
+design tech:
+    macalipsay, tovi R.
+
+date:
+    10 april 2026
+*/
+module xor_gate(Y,A,B);
+    /*ports*/
+    input A;
+    input B
+    output Y;
+
+    /*nets*/
+    wire w1,w2,w3,w4;
+
+    /*logic*/
+    Not u1(w1, A);
+    And U2(w3, w1, B);
+    Or U5(Y, w3,w4);
+    And U4(w4, A, w2);
+    not U3(w2, B);
+endmodule
