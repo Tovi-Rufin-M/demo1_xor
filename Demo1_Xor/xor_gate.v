@@ -16,13 +16,14 @@ module xor_gate(Y,A,B);
     input B;
     output Y;
 
-    /*nets*/
+    /*nets
     wire w1,w2,w3,w4;
 
-    /*logic*/
+    /*logic
     not u1(w1, A);
     and u2(w3, w1, B);
     or u5(Y, w3,w4);
     and u4(w4, A, w2);
-    not u3(w2, B);
+    not u3(w2, B);*/
+	 assign Y = (~A & B)+(A & ~B);
 endmodule
