@@ -2,15 +2,15 @@
 
 module testbench;
 	// tb signals
-	reg  a;
-	reg  b;
+	reg  A;
+	reg  B;
 	wire y;
 	
 	//insantiate xor module
 	xor_gate dut(
 		.Y(y),
-		.A(a),
-		.B(b)
+		.A(A),
+		.B(B)
 	);
 	
 	
@@ -18,10 +18,10 @@ module testbench;
 	
 	initial begin
 
-	a =0; b =0; #10;
-	a =0; b =1; #10;
-	a =1; b =0; #10;
-	a =1; b =1; #10;
+	A =0; B =0; #10;
+	A =0; B =1; #10;
+	A =1; B =0; #10;
+	A =1; B =1; #10;
 	end 
 	
 endmodule
